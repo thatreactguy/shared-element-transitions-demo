@@ -1,0 +1,20 @@
+[
+  {
+    "id": 1,
+    "name": "Gon Freecss",
+    "description": "Gon Freecss (ゴン゠フリークス, Gon Furīkusu) is a Rookie Hunter and the son of Ging Freecss. Finding his father is Gon's motivation in becoming a Hunter. He has been the main protagonist for most of the series, having said role in the Hunter Exam, Zoldyck Family, Heavens Arena, Greed Island, and Chimera Ant arcs.",
+    "img": "/gon.png"
+  },
+  {
+    "id": 2,
+    "name": "Killua Zoldyck",
+    "description": "Killua Zoldyck (キルア゠ゾルディック, Kirua Zorudikku) is the third child of Silva and Kikyo Zoldyck and the heir of the Zoldyck Family, until he runs away from home and becomes a Rookie Hunter.He is the best friend of Gon Freecss and is currently traveling with Alluka Zoldyck.",
+    "img": "/killua.png"
+  },
+  {
+    "id": 3,
+    "name": "Hisoka Morow",
+    "description": "Hisoka Morow (ヒソカ゠モロウ, Hisoka Morou) is a Hunter and former member #4 of the Phantom Troupe; his physical strength ranked third in the group. He is always in search for strong opponents, and would spare those who have great potential, such as Gon and Killua in order for them to get strong enough to actually challenge him.",
+    "img": "/hisoka.png"
+  }
+]

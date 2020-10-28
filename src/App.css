@@ -1,0 +1,147 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap");
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  color: #094067;
+  background-color: #fffffe;
+  font-family: 'Roboto', sans-serif;
+  max-width: 414px;
+  margin: 0 auto;
+}
+
+p {
+  font-size: 18px;
+  line-height: 1.6;
+}
+
+header {
+  padding: 1.5em;
+}
+
+header h1 {
+  font-size: 36px;
+}
+
+section .card {
+  margin: 0 auto;
+  position: relative;
+  height: 358px;
+  max-width: 89%;
+  margin-bottom: 2em;
+}
+
+section .card:hover {
+  cursor: pointer;
+}
+
+section .card img {
+  max-width: 100%;
+  height: 358px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 23px;
+  -webkit-box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.25);
+          box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.25);
+  -webkit-filter: brightness(65%);
+          filter: brightness(65%);
+}
+
+section .card .card-title {
+  color: white;
+  height: 75px;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: absolute;
+  bottom: 0px;
+}
+
+section .card .card-title span {
+  padding: 20px 0 20px 20px;
+  font-size: 32px;
+  font-weight: bold;
+  width: 100%;
+}
+
+.char-info {
+  display: -ms-grid;
+  display: grid;
+}
+
+.char-info img {
+  max-width: 100vw;
+  position: relative;
+  z-index: 3;
+}
+
+.char-info h1 {
+  font-size: 48px;
+  font-weight: bold;
+  padding: 1rem 1.5rem;
+}
+
+.char-info p {
+  padding: 0 1.5rem 30px 1.5rem;
+  color: #5f6c7b;
+  min-height: 254px;
+}
+
+.char-info button {
+  background: #ffffff;
+  color: #ef4565;
+  border: 1px solid #ef4565;
+  font-weight: bold;
+  font-size: 18px;
+  padding: 8px 24px;
+  justify-self: flex-end;
+  margin-bottom: 3em;
+  margin-right: 1.5em;
+}
+
+.char-info button:hover {
+  cursor: pointer;
+}
+
+.footer {
+  height: 220px;
+  width: 100%;
+  background: #094067;
+  color: #fffffe;
+  display: -ms-grid;
+  display: grid;
+  padding: 1.5em;
+  margin-top: 3em;
+}
+
+.footer a {
+  text-decoration: none;
+  color: #fffffe;
+}
+
+.footer h2 {
+  color: #ef4565;
+}
+
+.footer .connect {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -ms-flex-item-align: center;
+      align-self: center;
+  padding: 1.5em 1.5em 0 1.5em;
+}
+
+.footer .connect .connect-text {
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+}
+/*# sourceMappingURL=App.css.map */

@@ -5,11 +5,11 @@ const Footer = () => {
     <div className='footer'>
       <h2>Get this project</h2>
       <a
-        href=' https://github.com/<repo_name>'
+        href='https://github.com/thatreactguy/shared-element-transitions-demo'
         target='_blank'
         rel='noreferrer'
       >
-        {`repo_name`}
+        https://github.com/thatreactguy/shared-element-transitions-demo
       </a>
       <div className='connect'>
         <img src={process.env.PUBLIC_URL + 'twitter.svg'} alt='' />
